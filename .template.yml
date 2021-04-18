@@ -1,0 +1,44 @@
+output_dir: .
+
+clear_top_level: true
+logical_grouping: true
+
+collections:
+  - common
+  - typescript
+
+loader_paths:
+  - docs
+
+render_context:
+  project:
+    project_name: env-names
+    version: 0.1.0
+
+    verbose_name: Env names
+    description: Resolve short environment aliases.
+
+    repository: https://github.com/JoelLefkowitz/env-names
+    codacy_id: 3790cda9d90a4a9a92d45b30fa0cc116
+
+    inserts:
+      - usage.md
+
+  author:
+    author: Joel Lefkowitz
+    author_email: joellefkowitz@hotmail.com
+    author_github_handle: joellefkowitz
+
+  package:
+    is_npm_package: true
+    package_name: env-names
+
+  portfolio:
+    is_portfolio: true
+    status_level: 3
+
+    languages:
+      - TypeScript
+
+    paradigms:
+      - Object oriented programming

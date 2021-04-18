@@ -1,3 +1,4 @@
+
 const globAll = "{*,.*,**/*}";
 const pursAll = "find {src,test} -name '*.purs' -type f";
 
