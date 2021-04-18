@@ -1,0 +1,6 @@
+project: env-names
+version: 0.1.0
+author: Joel Lefkowitz
+verbose_name: Env names
+html_title: Env names 
+github_url: https://github.com/JoelLefkowitz/env-names

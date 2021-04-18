@@ -1,0 +1,32 @@
+language: node_js
+
+os: linux
+dist: xenial
+node_js: 14.8.0
+
+before_install:
+  - npm install
+  - npm global add grunt-cli
+
+cache:
+  - npm
+
+jobs:
+  include:
+    - stage: Linters
+      script: grunt lint
+
+    - stage: Unit tests
+      script: grunt tests:unit
+
+    - stage: Publish
+      script: echo This version refers to $(git describe --tags)
+      deploy:
+        provider: npm
+        email: joellefkowitz@hotmail.com
+        api_key: 
+          secure: 
+        on:
+          tags: true
+          branch: master
+          
