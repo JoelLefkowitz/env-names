@@ -1,0 +1,36 @@
+{
+  "name": "purescript-env-names",
+  "version": "0.1.0",
+  "description": "Resolve short environment aliases.",
+  "homepage": "https://github.com/JoelLefkowitz/purescript-env-names",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoelLefkowitz/purescript-env-names"
+  },
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "bower.json",
+    "generated-docs",
+    "node_modules",
+    "output",
+    "package-lock.json",
+    "package.json",
+    "test",
+    "yarn-error.log",
+    "yarn.lock"
+  ],
+  "dependencies": {
+    "purescript-arrays": "^6.0.1",
+    "purescript-maybe": "^5.0.0"
+  },
+  "devDependencies": {
+    "purescript-assert": "^5.0.0",
+    "purescript-debug": "^5.0.0",
+    "purescript-psci-support": "^5.0.0"
+  },
+  "resolutions": {
+    "purescript-prelude": "^5.0.0"
+  }
+}
