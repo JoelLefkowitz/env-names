@@ -1,7 +1,4 @@
-module Test.Main
-  ( devAlias
-  )
-  where
+module Test.Main where
 
 import Prelude
 import Env (singleton, replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
