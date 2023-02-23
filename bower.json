@@ -1,12 +1,12 @@
 {
-  "name": "purescript-env-names",
-  "version": "0.1.0",
+  "name": "env-names",
   "description": "Resolve short environment aliases.",
-  "homepage": "https://github.com/JoelLefkowitz/purescript-env-names",
+  "version": "0.1.0",
+  "homepage": "https://github.com/JoelLefkowitz/env-names",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoelLefkowitz/purescript-env-names"
+    "url": "https://github.com/JoelLefkowitz/env-names"
   },
   "ignore": [
     "**/.*",
