@@ -17,6 +17,47 @@ Resolve short environment aliases.
 bower install purescript-env-names
 ```
 
+## Usage
+
+Environment names often have aliases such as `development` and `dev`. This can lead to development code finding its way into production, for example:
+
+`dangerous.js`
+
+```js
+if (process.env.NODE_ENV === "dev") {
+  ...
+} else {
+  console.log("Let's hope I'm fit for production");
+}
+```
+
+```bash
+> NODE_ENV=development node ./dangerous.js
+"Let's hope I'm fit for production"
+```
+
+This package offers a preventative approach with parsers for common aliases:
+
+```purs
+> longEnv "dev"
+"development"
+
+> longEnv "development"
+"development"
+```
+
+You can specify custom aliases too:
+
+```purs
+alias = (Alias "gulls" "seagulls")
+
+> replaceShort "seagulls"
+"gulls"
+
+> replaceShort "gulls"
+"gulls"
+```
+
 ## Tests
 
 To run tests:
