@@ -8,7 +8,7 @@
     "githubRepo": "env-names"
   },
   "dependencies": {
-    "arrays": "^6.0.1",
-    "maybe": "^5.0.0"
+    "arrays": ">=6.0.0 <7.0.0",
+    "maybe": ">=5.0.0 <6.0.0"
   }
 }
