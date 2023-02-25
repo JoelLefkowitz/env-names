@@ -1,4 +1,4 @@
-module Env
+module Data.String.Env
   ( Alias(..)
   , singleton
   , names

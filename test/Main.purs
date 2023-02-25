@@ -1,7 +1,7 @@
 module Test.Main where
 
 import Prelude
-import Env (singleton, replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
+import Data.String.Env (singleton, replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
 import Test.Assert (assertEqual)
 import Effect (Effect)
 import Data.Array (head)
