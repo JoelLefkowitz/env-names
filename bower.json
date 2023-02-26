@@ -22,15 +22,13 @@
     "yarn.lock"
   ],
   "dependencies": {
-    "purescript-arrays": "^6.0.1",
-    "purescript-maybe": "^5.0.0"
+    "purescript-arrays": "^6.0.0",
+    "purescript-maybe": "^5.0.0",
+    "purescript-prelude": "^5.0.1"
   },
   "devDependencies": {
     "purescript-assert": "^5.0.0",
     "purescript-debug": "^5.0.0",
     "purescript-psci-support": "^5.0.0"
-  },
-  "resolutions": {
-    "purescript-prelude": "^5.0.0"
   }
 }
