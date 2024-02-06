@@ -2,7 +2,7 @@ package:
   name: env-names
   description: Resolve short environment aliases.
   publish:
-    version: 0.3.4
+    version: 0.3.5
     license: MIT
     location:
       githubOwner: joellefkowitz
