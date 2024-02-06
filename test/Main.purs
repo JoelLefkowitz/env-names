@@ -1,12 +1,9 @@
 module Test.Main where
 
 import Prelude
-import Data.String.Env (singleton, replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
+import Data.String.Env (replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
 import Test.Assert (assertEqual)
 import Effect (Effect)
-import Data.Array (head)
-import Effect.Console (log)
-import Data.Maybe (fromMaybe)
 
 devAlias = (Alias "dev" "development")
 
