@@ -23,7 +23,7 @@ instance showAlias :: Show Alias where
 
 -- | Create an Alias who's short and long forms are the same.
 singleton :: String -> Alias
-singleton str = (Alias str str)
+singleton s = (Alias s s)
 
 -- | A bank of common aliases. Singletons are used for compatibility.
 -- | ``` yaml
@@ -56,15 +56,15 @@ names =
 
 -- | Replace a string with the long form of an alias.
 replaceLong :: String -> Alias -> String
-replaceLong str (Alias short long)
-  | str == short = long
-  | otherwise = str
+replaceLong s (Alias short long)
+  | s == short = long
+  | otherwise = s
 
 -- | Replace a string with the short form of an alias.
 replaceShort :: String -> Alias -> String
-replaceShort str (Alias short long)
-  | str == long = short
-  | otherwise = str
+replaceShort s (Alias short long)
+  | s == long = short
+  | otherwise = s
 
 -- | Replace a string with the long form of any matching alias
 -- | from the list of common aliases.

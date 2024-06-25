@@ -6,7 +6,7 @@ Resolve short environment aliases.
 ![Version](https://pursuit.purescript.org/packages/purescript-env-names/badge)
 ![Quality](https://img.shields.io/codacy/grade/3790cda9d90a4a9a92d45b30fa0cc116)
 
-## Installation
+## Installing
 
 ```bash
 spago install env-names
@@ -14,7 +14,7 @@ spago install env-names
 
 ## Documentation
 
-Documentation and more detailed examples are hosted on [Github Pages](https://joellefkowitz.github.io/env-names).
+Documentation and more detailed examples are hosted on [Pursuit](https://pursuit.purescript.org/packages/purescript-env-names).
 
 ## Usage
 
@@ -89,7 +89,7 @@ yarn spago docs
 To run linters:
 
 ```bash
-npm run lint
+yarn lint
 ```
 
 ### Formatters
@@ -97,7 +97,7 @@ npm run lint
 To run formatters:
 
 ```bash
-npm run format
+yarn format
 ```
 
 ## Contributing

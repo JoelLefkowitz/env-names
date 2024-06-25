@@ -1,10 +1,11 @@
-module Test.Main where
+module Test.Data.String.Env where
 
 import Prelude
 import Data.String.Env (replaceLong, replaceShort, Alias(..), longEnv, shortEnv)
 import Test.Assert (assertEqual)
 import Effect (Effect)
 
+devAlias :: Alias
 devAlias = (Alias "dev" "development")
 
 main :: Effect Unit
