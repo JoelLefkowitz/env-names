@@ -16,7 +16,7 @@ package:
       githubRepo: env-names
 
   dependencies:
-    - arrays: ">=6.0.0 <7.0.0"
+    - arrays: ">=7.0.0 <8.0.0"
     - prelude: ">=6.0.1 <7.0.0"
 
   build:
